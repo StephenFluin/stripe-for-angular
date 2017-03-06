@@ -4,4 +4,10 @@
 
 <p>This is an example of Stripe Elements with Angular</p>
 <h2>Example 1 - Full featured card</h2>
-<card></card>
+<stripe-card [style]="cardStyle" style="width:300px;" [hidePostalCode]="true"></stripe-card>
+
+<stripe-card-cvc></stripe-card-cvc>
+<stripe-card-number></stripe-card-number>
+<stripe-postal-code></stripe-postal-code>
+<button (click)="submitStripe()">Send</button>
+

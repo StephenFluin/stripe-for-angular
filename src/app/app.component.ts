@@ -9,9 +9,16 @@ import { StripeService } from './elements/stripe.service';
 })
 export class AppComponent {
   title = 'Stripe Elements Example';
+  cardStyle = {
+    fontSize:'40px',
+  };
 
-  constructor(ss: StripeService) {
-    console.log("Key is",ss.stripe._apiKey);
+  constructor(public ss: StripeService) {
 
+  }
+
+  submitStripe() {
+     let context = {};
+     this.ss.submit('https://token-eesintation.example', context);
   }
 }

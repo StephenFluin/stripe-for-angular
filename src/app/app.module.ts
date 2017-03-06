@@ -16,13 +16,6 @@ import { AppComponent } from './app.component';
     BrowserModule,
     FormsModule,
     HttpModule,
-    AngularFireModule.initializeApp({
-      apiKey: "AIzaSyCTOFGccvaEedz1Jykckni5T-WP7XixS_o",
-      authDomain: "project-4800661445983438923.firebaseapp.com",
-      databaseURL: "https://project-4800661445983438923.firebaseio.com",
-      storageBucket: "project-4800661445983438923.appspot.com",
-      messagingSenderId: "821727302762"
-    }),
     ElementsModule.initializeApp('123'),
 
   ],

@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-card-number',
+  selector: 'stripe-card-number',
   templateUrl: './card-number.component.html',
   styleUrls: ['./card-number.component.css']
 })

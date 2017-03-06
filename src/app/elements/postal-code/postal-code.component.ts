@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-postal-code',
+  selector: 'stripe-postal-code',
   templateUrl: './postal-code.component.html',
   styleUrls: ['./postal-code.component.css']
 })
